@@ -19,6 +19,6 @@ for(String myString : myConf.getMyList()) {<br/>
   System.out.println(myString);<br/>
 <br/>
 <br/>
-The application will read the values 'myString1' and 'myString2' of the property myList in the standard application.properties configuration file then display it in the terminal.<br/>
+The application will read the values 'myString1' and 'myString2' of the property myList in the standard application.properties configuration file then display them in the terminal.<br/>
 
 
