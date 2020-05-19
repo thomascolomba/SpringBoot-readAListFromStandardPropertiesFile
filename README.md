@@ -9,7 +9,7 @@ java -jar ./target/readAListFromStandardPropertiesFile-0.0.1-SNAPSHOT.jar<br/>
 myList[0]=myString1<br/>
 myList[1]=myString2<br/>
 ---MyConfigurationBean.java<br/>
-private List<String> myList = new ArrayList<String>();<br/>
+private List<String> myList = new ArrayList&lt;String&gt;();<br/>
 +getter and setter<br/>
 ---The class who displays the value of the 'myList' values from the configuration<br/>
 @Autowired<br/>
